@@ -1,0 +1,77 @@
+* Who am I
+
+- Computational Biologist, some use of DL in the lab.
+- I am not an expert in IA.
+- I have never used ChatGPT or any similar tools, and I'll tell you
+  why!
+- Following discussions and collecting articles about the topic.
+
+* Reference
+
+On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
+
+Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell
+
+> The past 3 years of work in NLP have been characterized by the
+> development and deployment of ever larger language models,
+> especially for English. BERT, its variants, GPT-2/3, and others,
+> most recently Switch-C, have pushed the boundaries of the possible
+> both through architectural innovations and through sheer size. Using
+> these pretrained models and the methodology of fine-tuning them for
+> specific tasks, researchers have extended the state of the art on a
+> wide array of tasks as measured by leaderboards on specific
+> benchmarks for English. In this paper, we take a step back and ask:
+> How big is too big? What are the possible risks associated with this
+> technology and what paths are available for mitigating those risks?
+> We provide recommendations including weighing the environmental and
+> financial costs first, investing resources into curating and
+> carefully documenting datasets rather than ingesting everything on
+> the web, carrying out pre-development exercises evaluating how the
+> planned approach fits into research and development goals and
+> supports stakeholder values, and encouraging research directions
+> beyond ever larger language models.
+
+* When can I use ChatGPT?
+
+Given that
+- LLMs have no notion of true or false, nor any understanding of what
+  it is asked.
+- Probabilistic, based on *biased training data*.
+
+Use it if/when
+- You don't can about the validity of the results.
+- You are an expert in the field.
+
+(Crédit: Yves Deville and Christine Jacqmot)
+
+* At what cost?
+
+- Human cost.
+- Environmental cost.
+- Intellectual property.
+
+* AI contamination
+
+* ChatGPT in research
+
+- Reproducibility?
+- Paper writing and reviews!
+
+* ChatGPT in education?
+
+Use it if/when
+- You don't can about the validity of the results.
+- You are an expert in the field.
+
+* Who benefits from ChatGTP?
+
+- In search engines
+- Facial recognition
+- Microsoft Windows Recall
+- Automatic (meaningless) text generation, that is likely being
+  re-used for training.
+
+* [[https://www.citationneeded.news/ai-isnt-useless/][AI isn't useless. But is it worth it?]]
+
+AI can be kind of useful, but I'm not sure that a "kind of useful"
+tool justifies the harm.
