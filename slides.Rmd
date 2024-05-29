@@ -512,12 +512,11 @@ name: laurent-gatto
 ]
 
 .rigth-col-50[
-
-
 ## Thank you for your attention
-
-### Slides: [https://lgatto.github.io/2024_05_30_IA_IRSS/](https://lgatto.github.io/2024_05_30_IA_IRSS).
-
-### Blog post: [https://lgatto.github.io/ia-irss/](https://lgatto.github.io/ia-irss/)
-
 ]
+
+### Slides
+### [https://bit.ly/2024ai_slides](https://bit.ly/2024ai_slides)
+
+### Blog post
+### [https://bit.ly/2024ai_blog](https://lgatto.github.io/ia-irss/)
