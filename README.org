@@ -109,7 +109,8 @@ Here are some relevant articles and illustrative quotes;
 - [[https://theconversation.com/ai-has-a-large-and-growing-carbon-footprint-but-there-are-potential-solutions-on-the-horizon-223488][theconversation.com]]: AI has a large and growing carbon footprint,
   but there are potential solution on the horizon.
 
-  > To put things in perspective, training GPT-3 (the precursor AI
+  #+begin_src quote
+  To put things in perspective, training GPT-3 (the precursor AI
   system to the current ChatGPT) generated 502 metric tonnes of
   carbon, which is equivalent to driving 112 petrol powered cars for a
   year. [...] GPT-3 further emits 8.4 tonnes of CO₂ annually due to
@@ -122,6 +123,7 @@ Here are some relevant articles and illustrative quotes;
   estimates could be lower than AI’s actual carbon footprint due to a
   lack of standard and accurate techniques for measuring AI-related
   emissions.
+  #+end_src
 
 - [[https://www.theguardian.com/technology/2023/jun/08/artificial-intelligence-industry-boom-environment-toll][The Guardian]]: As the AI industry booms, what toll will it take on
   the environment? (citing - [[https://arxiv.org/abs/2211.02001][Estimating the Carbon Footprint
@@ -137,18 +139,22 @@ Here are some relevant articles and illustrative quotes;
   London and New York.
   #+end_src
 
-  > By contrast, limited publicly available data suggests about 500
+  #+begin_src quote
+  By contrast, limited publicly available data suggests about 500
   metric tonnes of CO2 were produced just in the training of ChatGPT’s
   GPT3 model 3 – the equivalent of over a million miles driven by
   average gasoline-powered cars, the researchers noted.
+  #+end_src
 
-  > Even more unclear is the amount of water consumed in the creation
+  #+begin_src quote
+  Even more unclear is the amount of water consumed in the creation
   and use of various AI models. Data centers use water in evaporative
   cooling systems to keep equipment from overheating. One
   non-peer-reviewed study, led by researchers at UC Riverside,
   estimates that training GPT3 in Microsoft’s state-of-the-art US data
   centers could potentially have consumed 700,000 liters of
   freshwater.
+  #+end_src
 
 - [[https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-may-eventually-consume-a-quarter-of-americas-power-by-2030-warns-arm-ceo][tomshardware.com]]: AI may eventually consume a quarter of America's
   power by 2030, warns Arm CEO.
@@ -157,9 +163,11 @@ Here are some relevant articles and illustrative quotes;
 
   How ironic!!
 
-  > "The company’s goal to be carbon negative by 2030 is harder to
+  #+begin_src quote
+  "The company’s goal to be carbon negative by 2030 is harder to
   reach, but President Brad Smith says the good AI can do for the
   world will outweigh its environmental impact."
+  #+end_src
 
 Note that this is also relevant for other cloud services, such as
 video on demande (detail for [[https://theconversation.com/que-sait-on-des-impacts-environnementaux-de-la-video-en-ligne-lexemple-de-netflix-229955][Netflix]] here).
@@ -205,11 +213,13 @@ the (absence of) meaning output by the models.
 - We tend to mistake the seamingful coherence of LLM outputs for
   meaningful text or expertise.
 
-> Contrary to how it may seem when we observe its output, an LM is a
-> system for haphazardly stitching together sequences of linguistic
-> forms it has observed in its vast training data, according to
-> probabilistic information about how they combine, but without any
-> reference to meaning: a *stochastic parrot*.
+#+begin_src quote
+Contrary to how it may seem when we observe its output, an LM is a
+system for haphazardly stitching together sequences of linguistic
+forms it has observed in its vast training data, according to
+probabilistic information about how they combine, but without any
+reference to meaning: a *stochastic parrot*.
+#+end_src
 
 It is important to note that, in addition to highlight the risks, the
 authors do propose paths forward for LM research and development.
