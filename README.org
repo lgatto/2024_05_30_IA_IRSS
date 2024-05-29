@@ -218,7 +218,7 @@ Contrary to how it may seem when we observe its output, an LM is a
 system for haphazardly stitching together sequences of linguistic
 forms it has observed in its vast training data, according to
 probabilistic information about how they combine, but without any
-reference to meaning: a *stochastic parrot*.
+reference to meaning: a stochastic parrot.
 #+end_src
 
 It is important to note that, in addition to highlight the risks, the
@@ -246,7 +246,7 @@ artificial intelligence chatbot.
 group if someone explicitly tags it or if someone “asks a question in
 a post and no one responds within an hour.”
 
-There are prime examples of *enshittification*:
+There are prime examples of *enshittification* (from [[https://en.wikipedia.org/wiki/Enshittification][Wikipedia]]):
 
 #+begin_src quote
 Enshittification is the pattern of decreasing quality observed in
@@ -255,8 +255,9 @@ Search, Twitter, Bandcamp, Reddit, Uber, and Unity. The term was
 used by writer Cory Doctorow in November 2022, and the American
 Dialect Society selected it as its 2023 Word of the Year. Doctorow
 has also used the term platform decay to describe the same
-concept. (from [[https://en.wikipedia.org/wiki/Enshittification][Wikipedia]])
+concept.
 #+end_src
+
 
 * ChatGPT in research
 
