@@ -5,4 +5,4 @@ language models in research. These are the notes I prepared my short
 presentation.
 
 - Blog: https://lgatto.github.io/ia-irss/
-- Slides:
+- Slides: https://lgatto.github.io/2024_05_30_IA_IRSS/
