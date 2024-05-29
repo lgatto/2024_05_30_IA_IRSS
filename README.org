@@ -1,19 +1,25 @@
 #+TITLE: On cats, farts and parrots.
 #+AUTHOR: Laurent Gatto (FASB; DDUV/CBIO)
 
+I was invited to contribute to a [[https://www.linkedin.com/feed/update/urn:li:activity:7201099969779351552/][seminar/discussion]] on AI, and using
+language models in research. These are the notes I prepared my short
+presentation.
+
+
 * Who am I
 
 I feel it is important to say a few words to put my talk into
 perspective:
 
-- I am a Computational Biologist, heading the CBIO lab at the de Duve
-  Institute, UCLouvain. We use/develop of DL in the CBIO lab. I am not
-  an expert in IA.
+- I am a [[https://lgatto.github.io/about/][Computational Biologist]], heading the [[https://lgatto.github.io/cbio-lab/][CBIO lab]] at the [[https://www.deduveinstitute.be/research-group/laurent-gatto][de Duve
+  Institute]], [[https://uclouvain.be/][UCLouvain]]. We use/develop of DL in the CBIO lab. I am
+  not an expert in IA.
 - I have never used ChatGPT or any similar tools, and I'll tell you
-  why! I however actively following discussions on IA, its impact on
-  society, and collect articles about the topic.
-- I will focus on ChatGTP and similar LLMs that are released by large
-  and very powerful commercial entities for wide public consumption.
+  why! I however actively follow discussions on IA and its impact on
+  society.
+- I will focus on ChatGTP and similar LMs that are released by large
+  and very powerful commercial entities for wide public consumption. I
+  am not focusing on their application in research.
 
 * Reference
 
@@ -41,16 +47,14 @@ More about the [[https://en.wikipedia.org/wiki/Stochastic_parrot][Stochastic par
 
 * When can I use ChatGPT?
 
-Crédit: [[https://webperso.info.ucl.ac.be/~yde/bio.html][Yves Deville]] and [[https://scholar.google.com/citations?user=uwMMh-YAAAAJ][Christine Jacqmot]].
+Following [[https://webperso.info.ucl.ac.be/~yde/bio.html][Yves Deville]] and [[https://scholar.google.com/citations?user=uwMMh-YAAAAJ][Christine Jacqmot]]'s recommendations here.
 
 ** Given that
 
-> LLMs have no notion of true or false, nor any understanding of what
-> it is asked.
+LLMs have absolutely no notion of "true" or "false", nor any
+understanding of what it is asked.
 
-And is based on *biased training data* - see more about this later
-
-** Use it if/when
+** Use it if
 
 1. You don't can about the validity of the results.
 2. You are an expert in the field.
@@ -159,7 +163,8 @@ Here are some relevant articles and illustrative quotes;
 Note that this is also relevant for other cloud services, such as
 video on demande (detail for [[https://theconversation.com/que-sait-on-des-impacts-environnementaux-de-la-video-en-ligne-lexemple-de-netflix-229955][Netflix]] here).
 
-*Already marginalised communities will suffer the highest climatic cost.*
+*Already marginalised communities will suffer the highest climatic
+cost.*
 
 ** Intellectual property
 
@@ -170,14 +175,21 @@ Where does all that training data come from?
 
 * Stochastic parrot
 
+I'll borrow here directly from the paper, to highlight specific issues
+with the vast amounts of data needed to train these large models, and
+the (absence of) meaning output by the models.
+
 ** Unfathomable training data
 
 - Size doesn't guarantee diversity: from initial participation, to
   data filtering, the data reflect the hegemonic viewpoint.
-- Static data vs. changine social views
-- Encoding and amplification of biais: stereotypical associations and
-  negative sentiment towards specific groups.
-- Curation, documentation and accountability; documentation debt.
+- Data is static data, but social views change.
+- Biais is encoding and amplified in the training data, in particular
+  stereotypical associations and negative sentiment towards specific
+  groups.
+- Large data and the lack of curation, documentation and
+  accountability lead to a major documentation debt, that can't be
+  addressed after the fact.
 
 *Systematic biais againsy already marginalised communities.*
 
@@ -188,7 +200,7 @@ Where does all that training data come from?
 - There is no meaning, no model of the world, no intend to communicate
   in ChatGPT's output.
 - Perceived "fluency" and "confidence" give the illusion of (implicit)
-  expertise.
+  meaning and expertise.
 - We tend to mistake the seamingful coherence of LLM outputs for
   meaningful text or expertise.
 
@@ -223,15 +235,15 @@ artificial intelligence chatbot.
 group if someone explicitly tags it or if someone “asks a question in
 a post and no one responds within an hour.”
 
+There are prime examples of *enshittification*:
 
-
--> *Enshittification* is the pattern of decreasing quality observed in
-   online services and products such as Amazon, Facebook, Google
-   Search, Twitter, Bandcamp, Reddit, Uber, and Unity. The term was
-   used by writer Cory Doctorow in November 2022, and the American
-   Dialect Society selected it as its 2023 Word of the Year. Doctorow
-   has also used the term platform decay to describe the same
-   concept. (from [[https://en.wikipedia.org/wiki/Enshittification][Wikipedia]])
+> Enshittification is the pattern of decreasing quality observed in
+> online services and products such as Amazon, Facebook, Google
+> Search, Twitter, Bandcamp, Reddit, Uber, and Unity. The term was
+> used by writer Cory Doctorow in November 2022, and the American
+> Dialect Society selected it as its 2023 Word of the Year. Doctorow
+> has also used the term platform decay to describe the same
+> concept. (from [[https://en.wikipedia.org/wiki/Enshittification][Wikipedia]])
 
 * ChatGPT in research
 
@@ -256,16 +268,6 @@ a post and no one responds within an hour.”
 
 - Paper writing (paper mills) and reviews (ChatGPT is
   [[https://www.nature.com/articles/d41586-024-01106-4][polluting]]/[[https://arxiv.org/abs/2405.02150][influencing]] peer review).
-
-* ChatGPT in education?
-
-> *Reminder*: use it if/when
-> - You don't can about the validity of the results.
-> - You are an expert in the field.
-
-- What do we gain, what do we loose in using ChatGPT in education?
-- Train students in using (not abusing) ChatGPT.
-- Clear guidelines!
 
 * Who benefits from ChatGTP/AI?
 
@@ -292,9 +294,13 @@ communities to benefit the most.*
   effort seeking to avoid legally enforceable restrictions of
   controversial technologies.
 
-* [[https://www.citationneeded.news/ai-isnt-useless/][AI isn't useless. But is it worth it?]]
+* Conclusions
+
+Despite some notable failures with 'AI for public consumption' , one
+can't ignore that there there are also success stories, and possibly
+still untapped opportunities. But ...
 
 > AI can be kind of useful, but I'm not sure that a "kind of useful"
 > tool justifies the harm.
 
-Molly White
+[[https://www.citationneeded.news/ai-isnt-useless/][AI isn't useless. But is it worth it?]], Molly White
