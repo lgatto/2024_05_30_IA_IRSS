@@ -1,10 +1,9 @@
 #+TITLE: On cats, farts and parrots.
-#+AUTHOR: Laurent Gatto (FASB; DDUV/CBIO)
+
 
 I was invited to contribute to a [[https://www.linkedin.com/feed/update/urn:li:activity:7201099969779351552/][seminar/discussion]] on AI, and using
 language models in research. These are the notes I prepared my short
 presentation.
-
 
 * Who am I
 
@@ -128,13 +127,15 @@ Here are some relevant articles and illustrative quotes;
   the environment? (citing - [[https://arxiv.org/abs/2211.02001][Estimating the Carbon Footprint
   of BLOOM, a 176B Parameter Language Model]])
 
-  > [Luccioni et al.] tallied the amount of energy used to train [...]
+  #+begin_src quote
+  [Luccioni et al.] tallied the amount of energy used to train [...]
   Bloom, on a supercomputer; the energy used to manufacture the
   supercomputer’s hardware and maintain its infrastructure; and the
   electricity used to run the program once it launched. They found
   that it generated about 50 metric tons of carbon dioxide emissions,
   the equivalent of an individual taking about 60 flights between
   London and New York.
+  #+end_src
 
   > By contrast, limited publicly available data suggests about 500
   metric tonnes of CO2 were produced just in the training of ChatGPT’s
