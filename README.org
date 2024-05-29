@@ -248,25 +248,30 @@ a post and no one responds within an hour.”
 
 There are prime examples of *enshittification*:
 
-> Enshittification is the pattern of decreasing quality observed in
-> online services and products such as Amazon, Facebook, Google
-> Search, Twitter, Bandcamp, Reddit, Uber, and Unity. The term was
-> used by writer Cory Doctorow in November 2022, and the American
-> Dialect Society selected it as its 2023 Word of the Year. Doctorow
-> has also used the term platform decay to describe the same
-> concept. (from [[https://en.wikipedia.org/wiki/Enshittification][Wikipedia]])
+#+begin_src quote
+Enshittification is the pattern of decreasing quality observed in
+online services and products such as Amazon, Facebook, Google
+Search, Twitter, Bandcamp, Reddit, Uber, and Unity. The term was
+used by writer Cory Doctorow in November 2022, and the American
+Dialect Society selected it as its 2023 Word of the Year. Doctorow
+has also used the term platform decay to describe the same
+concept. (from [[https://en.wikipedia.org/wiki/Enshittification][Wikipedia]])
+#+end_src
 
 * ChatGPT in research
 
 - Reproducibility? [[https://www.nature.com/articles/d41586-024-01463-0][AlphaFold3 — why did Nature publish it without its
   code?]]
 
-  > When AlphaFold2 was published2, the full underlying code was made
+  #+begin_src quote
+  When AlphaFold2 was published2, the full underlying code was made
   accessible to all researchers. But AlphaFold3 comes with
   ‘pseudocode’ — a detailed description of what the code can do and
   how it works.
+  #+end_src
 
-  > [...] for AlphaFold2, the DeepMind team worked with the European
+  #+begin_src quote
+  [...] for AlphaFold2, the DeepMind team worked with the European
   Molecular Biology Laboratory’s European Bioinformatics Institute
   [...] Now, DeepMind has partnered with Isomorphic Labs, a
   London-based drug-development company owned by Google’s parent,
@@ -274,6 +279,7 @@ There are prime examples of *enshittification*:
   there are other restrictions on the use of the tool — for example,
   in drug development. There are also daily limits on the numbers of
   predictions that individual researchers can perform.
+  #+end_src
 
 - [[https://www.theguardian.com/science/2023/jan/26/science-journals-ban-listing-of-chatgpt-as-co-author-on-papers][Science journals ban listing of ChatGPT as co-author on papers]]
 
@@ -311,7 +317,9 @@ Despite some notable failures with 'AI for public consumption' , one
 can't ignore that there there are also success stories, and possibly
 still untapped opportunities. But ...
 
-> AI can be kind of useful, but I'm not sure that a "kind of useful"
-> tool justifies the harm.
+#+begin_src quote
+AI can be kind of useful, but I'm not sure that a "kind of useful"
+tool justifies the harm.
+#+end_src
 
 [[https://www.citationneeded.news/ai-isnt-useless/][AI isn't useless. But is it worth it?]], Molly White
