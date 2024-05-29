@@ -1,16 +1,19 @@
 * Who am I
 
-- Computational Biologist, some use of DL in the lab.
+- Computational Biologist. Use/develop of DL in the CBIO lab.
 - I am not an expert in IA.
 - I have never used ChatGPT or any similar tools, and I'll tell you
   why!
-- Following discussions and collecting articles about the topic.
+- Actively following discussions and collecting articles about the
+  topic.
+- Will focus on ChatGTP and similar LLMs that are released by large
+  and very powerful commenercial entities for wide public consumption.
 
 * Reference
 
-On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
-
-Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell
+*On the Dangers of Stochastic Parrots: Can Language Models Be Too
+Big?* by Emily M. Bender, Timnit Gebru, Angelina McMillan-Major,
+Shmargaret Shmitchell
 
 > The past 3 years of work in NLP have been characterized by the
 > development and deployment of ever larger language models,
@@ -33,43 +36,95 @@ Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell
 
 * When can I use ChatGPT?
 
-Given that
-- LLMs have no notion of true or false, nor any understanding of what
-  it is asked.
-- Probabilistic, based on *biased training data*.
+I will come back to some of these points in the later /stochastic
+parrot/ section.
 
-Use it if/when
-- You don't can about the validity of the results.
-- You are an expert in the field.
+** Given that
+
+> LLMs have no notion of true or false, nor any understanding of what
+> it is asked.
+
+(And probabilistic, based on *biased training data* - see more about
+this later)
+
+** Use it if/when
+
+1. You don't can about the validity of the results.
+2. You are an expert in the field.
 
 (Crédit: Yves Deville and Christine Jacqmot)
 
 * At what cost?
 
-- Human cost.
-- Environmental cost.
-- Intellectual property.
+** Human cost
+
+Human cost is real and current. It is not a potential science-fiction
+picture of AI vs humanity. Such a picture diminishes the current human
+cost of AI, as is force-fed by big tech.
+
+...
+
+-> already marginalised communities to suffer the most.
+
+** Environmental cost
+...
+
+-> already marginalised communities to suffer the most.
+
+** Intellectual property
+
+Credit and licensing of text, voice and images used for training.
+
+* Stochastic parrot
 
 * AI contamination
 
-* ChatGPT in research
+- Outlets are terminating journalist contract to replace them by AI.
+- Independent writers are 'competing' against AI.
 
-- Reproducibility?
-- Paper writing and reviews!
+*Enshitification*
+
+* 'ChatGPT' in research
+
+- Reproducibility? [[https://www.nature.com/articles/d41586-024-01463-0][AlphaFold3 — why did Nature publish it without its
+  code?]]
+- Paper writing: paper mills
+- Reviews: [[https://www.nature.com/articles/d41586-024-01106-4][Daily
+  briefing: Signs that ChatGPT is polluting peer review]]
+- [[https://arxiv.org/abs/2405.02150][The AI Review Lottery:
+  Widespread AI-Assisted Peer Reviews Boost Paper Scores and
+  Acceptance Rates]].
 
 * ChatGPT in education?
 
-Use it if/when
-- You don't can about the validity of the results.
-- You are an expert in the field.
+> *Reminder*: use it if/when
+> - You don't can about the validity of the results.
+> - You are an expert in the field.
 
-* Who benefits from ChatGTP?
+- What do we gain, what do we loose in using ChatGPT in education?
+- Train students in using (not abusing) ChatGPT.
+- Clear guidelines!
 
-- In search engines
-- Facial recognition
-- Microsoft Windows Recall
-- Automatic (meaningless) text generation, that is likely being
+* Who benefits from ChatGTP/AI?
+
+... being is force-fed by big tech!
+
+- In search engines? Not the users.
+- Facial recognition. Not the citizens.
+- Microsoft Windows Recall. Not the employees.
+- Automatic (meaningless) text and answer generation, that are being
   re-used for training.
+
+-> Already marginalised communities to benefit the least. Privileged
+communities to benefit the most.
+
+- <2024-05-28 Tue> [[https://www.theguardian.com/technology/article/2024/may/28/openai-safety-council-chatgpt?CMP=Share_AndroidApp_Other][OpenAI forms safety council as it trains latest
+  artificial intelligence model]]: The safety committee is filled with
+  company insiders, including Sam Altman, the OpenAI CEO, and its
+  chairman, Bret Taylor, and four OpenAI technical and policy
+  experts. It also includes the board members Adam D’Angelo, who is
+  the CEO of Quora, and Nicole Seligman, a former Sony general
+  counsel.
 
 * [[https://www.citationneeded.news/ai-isnt-useless/][AI isn't useless. But is it worth it?]]
 
