@@ -464,6 +464,12 @@ least. Privileged communities to benefit the most.**
 
 ???
 
+- In search engines.  Not the users.
+- Use your social media photos, posts, info, ... to train AI. Not the
+  users.
+- Facial recognition. Not the citizens.
+- Microsoft Windows Recall. Not the employees.
+
 Already marginalised communities likely to benefit least **on
 average**
 - there are examples set up to specifically benefit minorities.
