@@ -1,7 +1,7 @@
 ---
 title: "On cats, farts and parrots"
 author: "[Laurent Gatto](#laurent-gatto)"
-date: "30 May 2014"
+date: "30 May 2024"
 output:
   xaringan::moon_reader:
     css: ["default", "default-fonts", "my.css"]
