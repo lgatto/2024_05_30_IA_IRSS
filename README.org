@@ -36,9 +36,6 @@ Shmargaret Shmitchell
 
 * When can I use ChatGPT?
 
-I will come back to some of these points in the later /stochastic
-parrot/ section.
-
 ** Given that
 
 > LLMs have no notion of true or false, nor any understanding of what
@@ -53,6 +50,10 @@ this later)
 2. You are an expert in the field.
 
 (Crédit: Yves Deville and Christine Jacqmot)
+
+- They always hallucinate. It just happens so that sometimes, what is
+  made up, is not wrong. I will come back to some of these points in
+  the later /stochastic parrot/ section.
 
 * At what cost?
 
