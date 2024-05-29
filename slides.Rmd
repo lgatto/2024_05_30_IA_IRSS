@@ -330,14 +330,16 @@ class: middle, center, inverse
   accountability lead to a major documentation debt, that can't be
   addressed after the fact.
 
-**Systematic biais against already marginalised communities.**
-
 ---
 class: middle, center, inverse
 
 ##  Unfathomable training data
 
 ### **Systematic biais against already marginalised communities.**
+
+???
+
+**Systematic biais against already marginalised communities.**
 
 ---
 class: middle, center, inverse
@@ -480,6 +482,23 @@ average**
 class: middle, center, inverse
 
 ## What about regulations?
+
+???
+
+- [OpenAI forms safety council as it trains latest artificial
+  intelligence
+  model](https://www.theguardian.com/technology/article/2024/may/28/openai-safety-council-chatgpt?CMP=Share_AndroidApp_Other):
+  The safety committee is filled with company insiders, including Sam
+  Altman, the OpenAI CEO, and its chairman, Bret Taylor, and four
+  OpenAI technical and policy experts. It also includes the board
+  members Adam D’Angelo, who is the CEO of Quora, and Nicole Seligman,
+  a former Sony general counsel.
+
+- [How Big Tech Manipulates Academia to Avoid
+  Regulation](https://theintercept.com/2019/12/20/mit-ethical-ai-artificial-intelligence/):
+  The discourse of “ethical AI” was aligned strategically with a
+  Silicon Valley effort seeking to avoid legally enforceable
+  restrictions of controversial technologies.
 
 
 ---
