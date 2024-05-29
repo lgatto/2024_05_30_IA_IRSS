@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>On cats, farts and parrots</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Laurent Gatto" />
+    <meta name="date" content="2014-05-30" />
+    <script src="slides_files/header-attrs-2.27/header-attrs.js"></script>
+    <link href="slides_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="slides_files/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="my.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# On cats, farts and parrots
+]
+.author[
+### <a href="#laurent-gatto">Laurent Gatto</a>
+]
+.date[
+### 30 May 2014
+]
+
+---
+
+
+
+class: middle
+name: cc-by
+
+### Get the slides at [short URL]().
+
+These slides are available under a **creative common
+[CC-BY license](http://creativecommons.org/licenses/by/4.0/)**. You are
+free to share (copy and redistribute the material in any medium or
+format) and adapt (remix, transform, and build upon the material) for
+any purpose, even commercially
+&lt;img height="20px" alt="CC-BY" src="./img/cc1.jpg" /&gt;.
+
+
+---
+
+class: middle, center, inverse
+
+## Who am I?
+
+???
+
+I feel it is important to say a few words to put my talk into
+perspective:
+
+- I am a [Computational Biologist](https://lgatto.github.io/about/),
+  heading the [CBIO lab](https://lgatto.github.io/cbio-lab/) at the
+  [de Duve
+  Institute](https://www.deduveinstitute.be/research-group/laurent-gatto),
+  [UCLouvain](https://uclouvain.be/). We use/develop of DL in the CBIO
+  lab. I am not an expert in IA.
+- I have never used ChatGPT or any similar tools, and I'll tell you
+  why! I however actively follow discussions on IA and its impact on
+  society.
+- I will focus on ChatGTP and similar LMs that are released by large
+  and very powerful commercial entities for wide public consumption. I
+  am not focusing on their application in research.
+
+
+---
+class: middle
+
+
+**[On the Dangers of Stochastic Parrots: Can Language Models Be Too
+Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)**, M. Bender,
+Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell. March
+2021 *Proceedings 2021 ACM Conference on Fairness, Accountability, and
+Transparency*.
+
+???
+
+If there's one reference to remember, it is this seminal paper
+
+- Emily Bender is a professor of computational linguistics at
+  Washington University. Angelina McMillan-Major is/was a PhD student
+  in her lab.
+- Timnit Gebru is one of the most well-known and respected Black
+  female scientists working in AI. She was a co-lead of Google's
+  ethical AI research team. In December 2020, her employment with
+  Google ended after Google management asked her to either withdraw
+  the paper before publication, or remove the names of all the Google
+  employees from the paper.
+- Margaret Mitchell was later also fired from Google.
+
+---
+
+class: middle, center, inverse
+
+## When can I use ChatGPT?
+
+---
+class: middle
+
+Following [Yves
+Deville](https://webperso.info.ucl.ac.be/~yde/bio.html) and [Christine
+Jacqmot](https://scholar.google.com/citations?user=uwMMh-YAAAAJ)'s
+recommendations here.
+
+Given that
+
+&gt; LLMs have absolutely no notion of "true" or "false", nor any
+&gt; understanding of what it is asked.
+
+Use it if
+
+&gt; 1. You don't can about the validity of the results.
+&gt; 2. You are an expert in the field.
+
+???
+
+Note: lots has been said about ChatGPT's "occasional" hallucinations
+(beware of the **anthropomorphising** word here). They always
+hallucinate. It just happens so that sometimes, what is made up, is
+not wrong. I will come back to some of these points in the later
+**stochastic parrot** section.
+
+Assuming you still want to use it, what are the **costs**?
+
+---
+
+class: middle, center, inverse
+
+## At what cost?
+
+???
+
+Many have tested ChatGPT. Some ([New AI tools much hyped but not much
+used, study says)](https://www.bbc.com/news/articles/c511x4g7x7jo)
+possibly make regular use of the free and/or the paid version. It
+might be used for important or minor/mundane tasks. But at what costs?
+
+---
+class: middle
+
+## Human cost
+## Environmental cost
+## Intellectual property
+
+---
+class: middle
+
+## Human cost
+
+- [TIME](https://time.com/6247678/openai-chatgpt-kenya-workers/): OpenAI Used Kenyan Workers on Less Than $2 Per Hour.
+- [The
+  Guardian](https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai):
+  ‘It’s destroyed me completely’: Kenyan moderators decry toll of
+  training of AI models.
+- [Business
+  Insider](https://www.businessinsider.com/openai-kenyan-contract-workers-label-toxic-content-chatgpt-training-report-2023-1):
+  Kenyan Workers Paid $2/hr Labeled Horrific Content for OpenAI.
+- [Fortune](https://fortune.com/2024/05/03/google-search-raters-wages-benefits-contractors-tech-ai-employment/):
+  I’m paid $14 an hour to rate AI-generated Google search
+  results. Subcontractors like me do key work but don’t get fair wages
+  or benefits.
+
+**Already marginalised communities will suffer the highest human cost.**
+
+???
+
+- Human cost is real and current. It is not a potential
+  science-fiction picture of AI vs humanity. Such a picture diminishes
+  the current human cost of AI, as is force-fed by big tech.
+
+
+- Note that this isn't specific to ChatGPT. Similar workers
+  exploitation has been documented for Meta/Facebook reviewers from
+  the Global South.
+
+---
+class: middle
+
+## Environmental cost
+
+- [Nature Machine
+  Intelligence](https://www.nature.com/articles/s42256-020-0219-9):
+  The carbon impact of artificial intelligence.
+- [technologyreview.com](https://www.technologyreview.com/2022/11/14/1063192/were-getting-a-better-idea-of-ais-true-carbon-footprint/):
+  We’re getting a better idea of AI’s true carbon footprint.
+- [Nature Climate
+  Change](https://www.nature.com/articles/s41558-022-01377-7):
+  Aligning artificial intelligence with climate change mitigation.
+- [nature.com](https://www.nature.com/articles/d41586-024-00478-x):
+  Generative AI’s environmental costs are soaring - and mostly secret.
+- [nature.com](https://www.nature.com/articles/d41586-022-01983-7):
+  How to shrink AI’s ballooning carbon footprint.
+- [theconversation.com](https://theconversation.com/ai-has-a-large-and-growing-carbon-footprint-but-there-are-potential-solutions-on-the-horizon-223488):
+  AI has a large and growing carbon footprint, but there are potential
+  solution on the horizon.
+- [The
+  Guardian](https://www.theguardian.com/technology/2023/jun/08/artificial-intelligence-industry-boom-environment-toll):
+  As the AI industry booms, what toll will it take on the environment?
+  (citing - [Estimating the Carbon Footprint of BLOOM, a 176B
+  Parameter Language Model](https://arxiv.org/abs/2211.02001))
+- [tomshardware.com](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-may-eventually-consume-a-quarter-of-americas-power-by-2030-warns-arm-ceo):
+  AI may eventually consume a quarter of America's power by 2030,
+  warns Arm CEO.
+- [bloomberg.com](https://www.bloomberg.com/news/articles/2024-05-15/microsoft-s-ai-investment-imperils-climate-goal-as-emissions-jump-30):
+  Microsoft’s AI Investment Imperils Climate Goal As Emissions Jump
+  30%.
+
+---
+class: middle
+
+
+[The
+Guardian](https://www.theguardian.com/technology/2023/jun/08/artificial-intelligence-industry-boom-environment-toll):
+As the AI industry booms, what toll will it take on the environment?
+(citing - [Estimating the Carbon Footprint of BLOOM, a 176B Parameter
+Language Model](https://arxiv.org/abs/2211.02001))
+
+   &gt; [Luccioni et al.] tallied the amount of energy used to train [...]
+   &gt; Bloom, on a supercomputer; the energy used to manufacture the
+   &gt; supercomputer’s hardware and maintain its infrastructure; and the
+   &gt; electricity used to run the program once it launched. They found
+   &gt; that it generated about 50 metric tons of carbon dioxide emissions,
+   &gt; the equivalent of an individual taking about 60 flights between
+   &gt; London and New York.
+
+   &gt; By contrast, limited publicly available data suggests about 500
+   &gt; metric tonnes of CO2 were produced just in the training of ChatGPT’s
+   &gt; GPT3 model 3 – the equivalent of over a million miles driven by
+   &gt; average gasoline-powered cars, the researchers noted.
+
+   &gt; Even more unclear is the amount of water consumed in the creation
+   &gt; and use of various AI models. [...]. One non-peer-reviewed study,
+   &gt; led by researchers at UC Riverside, estimates that training GPT3
+   &gt; in Microsoft’s state-of-the-art US data centers could potentially
+   &gt; have consumed 700,000 liters of freshwater.
+
+---
+class: middle
+
+[theconversation.com](https://theconversation.com/ai-has-a-large-and-growing-carbon-footprint-but-there-are-potential-solutions-on-the-horizon-223488):
+AI has a large and growing carbon footprint, but there are potential
+solution on the horizon.
+
+  &gt; Since the AI boom started in the early 2010s, the energy
+  &gt; requirements of AI systems known as large language models (LLMs) –
+  &gt; the type of technology that’s behind ChatGPT – have gone up by a
+  &gt; factor of 300,000. With the increasing ubiquity and complexity of
+  &gt; AI models, this trend is going to continue, potentially making AI
+  &gt; a significant contributor of CO₂ emissions. In fact, our current
+  &gt; estimates could be lower than AI’s actual carbon footprint due to
+  &gt; a lack of standard and accurate techniques for measuring
+  &gt; AI-related emissions.
+
+---
+class: middle
+
+[bloomberg.com](https://www.bloomberg.com/news/articles/2024-05-15/microsoft-s-ai-investment-imperils-climate-goal-as-emissions-jump-30):
+Microsoft’s AI Investment Imperils Climate Goal As Emissions Jump 30%.
+
+  &gt; "The company’s goal to be carbon negative by 2030 is harder to
+  &gt; reach, but President Brad Smith says the good AI can do for the
+  &gt; world will outweigh its environmental impact."
+
+**How ironic!!**
+
+---
+class: middle
+
+## Environmental cost
+
+- [Nature Machine
+  Intelligence](https://www.nature.com/articles/s42256-020-0219-9):
+  The carbon impact of artificial intelligence.
+- [technologyreview.com](https://www.technologyreview.com/2022/11/14/1063192/were-getting-a-better-idea-of-ais-true-carbon-footprint/):
+  We’re getting a better idea of AI’s true carbon footprint.
+- [Nature Climate
+  Change](https://www.nature.com/articles/s41558-022-01377-7):
+  Aligning artificial intelligence with climate change mitigation.
+- [nature.com](https://www.nature.com/articles/d41586-024-00478-x):
+  Generative AI’s environmental costs are soaring - and mostly secret.
+- [nature.com](https://www.nature.com/articles/d41586-022-01983-7):
+  How to shrink AI’s ballooning carbon footprint.
+- [theconversation.com](https://theconversation.com/ai-has-a-large-and-growing-carbon-footprint-but-there-are-potential-solutions-on-the-horizon-223488):
+  AI has a large and growing carbon footprint, but there are potential
+  solution on the horizon.
+- [The
+  Guardian](https://www.theguardian.com/technology/2023/jun/08/artificial-intelligence-industry-boom-environment-toll):
+  As the AI industry booms, what toll will it take on the environment?
+  (citing - [Estimating the Carbon Footprint of BLOOM, a 176B
+  Parameter Language Model](https://arxiv.org/abs/2211.02001))
+- [tomshardware.com](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-may-eventually-consume-a-quarter-of-americas-power-by-2030-warns-arm-ceo):
+  AI may eventually consume a quarter of America's power by 2030,
+  warns Arm CEO.
+- [bloomberg.com](https://www.bloomberg.com/news/articles/2024-05-15/microsoft-s-ai-investment-imperils-climate-goal-as-emissions-jump-30):
+  Microsoft’s AI Investment Imperils Climate Goal As Emissions Jump
+  30%.
+
+**Already marginalised communities will suffer the highest climatic
+cost.**
+
+
+???
+
+Note that this is also relevant for other cloud services, such as
+video on demande (detail for Netflix here).
+
+---
+class: middle
+
+## Intellectual property
+
+Where does all that training data come from?
+
+- What about the credit and licensing of text, voice and images of
+  those that produced that data used for training.
+
+
+---
+class: middle, center, inverse
+
+## Stochastic parrot
+
+???
+
+I'll borrow here directly from the paper, to highlight specific issues
+with the vast amounts of data needed to train these large models, and
+the (absence of) meaning output by the models.
+
+---
+class: middle, center, inverse
+
+##  Unfathomable training data
+
+???
+- Size doesn't guarantee diversity: from initial participation, to
+  data filtering, the data reflect the hegemonic viewpoint.
+- Data is static data, but social views change.
+- Biais is encoding and amplified in the training data, in particular
+  stereotypical associations and negative sentiment towards specific
+  groups.
+- Large data and the lack of curation, documentation and
+  accountability lead to a major documentation debt, that can't be
+  addressed after the fact.
+
+**Systematic biais against already marginalised communities.**
+
+---
+class: middle, center, inverse
+
+##  Unfathomable training data
+
+### **Systematic biais against already marginalised communities.**
+
+---
+class: middle, center, inverse
+
+## Coherence is in the eye of the beholder
+
+---
+class: middle
+
+## Coherence is in the eye of the beholder
+
+- There is no meaning, no model of the world, no intend to communicate
+  in ChatGPT's output.
+- Perceived "fluency" and "confidence" give the illusion of (implicit)
+  meaning and expertise.
+- We tend to mistake the seamingful coherence of LLM outputs for
+  meaningful text or expertise.
+
+???
+
+&gt; Contrary to how it may seem when we observe its output, an LM is a
+&gt; system for haphazardly stitching together sequences of linguistic
+&gt; forms it has observed in its vast training data, according to
+&gt; probabilistic information about how they combine, but without any
+&gt; reference to meaning: a stochastic parrot.
+
+It is important to note that, in addition to highlight the risks, the
+authors do propose paths forward for LM research and development.
+
+---
+class: middle, center, inverse
+
+## AI contamination
+
+---
+class: middle
+
+AI-generated text is already ubiquitous on-line, and it becomes more
+and more difficult to identify AI-generated text. How long until
+AI-generated (meaningless) text (including as answers in Q&amp;A sites),
+will be (or are) re-used for training.
+
+Outlets are terminating journalist contract to replace them by AI, and
+independent writers are 'competing' against AI.
+
+---
+class: middle
+
+We have all faced AI chat-bots in so-called help-desks. But [AI
+chatbots are intruding into online communities where people are trying
+to connect with other humans](https://theconversation.com/ai-chatbots-are-intruding-into-online-communities-where-people-are-trying-to-connect-with-other-humans-229473).
+
+&gt; Both of these responses were lies. That child does not exist and
+&gt; neither do the camera or air conditioner. The answers came from an
+&gt; artificial intelligence chatbot.
+
+&gt; According to a Meta help page, Meta AI will respond to a post in a
+&gt; group if someone explicitly tags it or if someone “asks a question
+&gt; in a post and no one responds within an hour.”
+
+---
+class: middle, center, inverse
+
+## AI contamination - **enshittification**
+
+???
+
+&gt; Enshittification is the pattern of decreasing quality observed in
+&gt; online services and products such as Amazon, Facebook, Google
+&gt; Search, Twitter, Bandcamp, Reddit, Uber, and Unity. The term was
+&gt; used by writer Cory Doctorow in November 2022, and the American
+&gt; Dialect Society selected it as its 2023 Word of the Year. Doctorow
+&gt; has also used the term platform decay to describe the same concept.
+
+---
+class: middle, center, inverse
+
+## ChatGPT in research
+
+---
+class: middle
+
+Reproducibility? [AlphaFold3 — why did Nature publish it without its
+code?](https://www.nature.com/articles/d41586-024-01463-0)
+
+&gt; When AlphaFold2 was published2, the full underlying code was made
+&gt; accessible to all researchers. But AlphaFold3 comes with
+&gt; ‘pseudocode’ — a detailed description of what the code can do and
+&gt; how it works.
+
+&gt; [...] for AlphaFold2, the DeepMind team worked with the European
+&gt; Molecular Biology Laboratory’s European Bioinformatics Institute
+&gt; [...] Now, DeepMind has partnered with Isomorphic Labs, a
+&gt; London-based drug-development company owned by Google’s parent,
+&gt; Alphabet. In addition to the non-availability of the full code,
+&gt; there are other restrictions on the use of the tool — for example,
+&gt; in drug development. There are also daily limits on the numbers of
+&gt; predictions that individual researchers can perform.
+
+---
+class: middle
+
+- [Science journals ban listing of ChatGPT as co-author on
+    papers](https://www.theguardian.com/science/2023/jan/26/science-journals-ban-listing-of-chatgpt-as-co-author-on-papers)
+
+- Paper writing (paper mills) and reviews (ChatGPT is
+  [polluting](https://www.nature.com/articles/d41586-024-01106-4)/[influencing](https://arxiv.org/abs/2405.02150)
+  peer review).
+
+
+---
+class: middle, center, inverse
+
+## Who benefits from ChatGTP/AI?
+
+---
+class: middle
+
+## Who benefits from ChatGTP/AI?
+
+... being is force-fed by big tech!
+
+**Already marginalised communities likely to benefit the
+least. Privileged communities to benefit the most.**
+
+???
+
+Already marginalised communities likely to benefit least **on
+average**
+- there are examples set up to specifically benefit minorities.
+
+
+---
+class: middle, center, inverse
+
+## What about regulations?
+
+
+---
+class: middle, inverse
+
+## AI isn't useless. But is it worth
+
+&gt; AI can be kind of useful, but I'm not sure that a "kind of useful"
+&gt; tool justifies the harm.
+
+**Molly White**
+
+???
+
+Despite some notable failures with 'AI for public consumption' , one
+can't ignore that there there are also success stories, and possibly
+still untapped opportunities. But ...
+
+---
+class: middle
+name: laurent-gatto
+
+.left-col-50[
+&lt;img src="./img/lgatto3b.png" width = "180px"/&gt;
+### Laurent Gatto
+&lt;i class="fas fa-flask"&gt;&lt;/i&gt;&amp;nbsp;[Computational Biology Group](https://lgatto.github.io/cbio-lab/)&lt;br /&gt;
+&lt;i class="fas fa-map-marker-alt"&gt;&lt;/i&gt;&amp;nbsp;de Duve Institute, UCLouvain&lt;br /&gt;
+&lt;i class="fas fa-envelope"&gt;&lt;/i&gt;&amp;nbsp;laurent.gatto@uclouvain.be&lt;br /&gt;
+&lt;i class="fas fa-home"&gt;&lt;/i&gt;&amp;nbsp;https://lgatto.github.io&lt;br /&gt;
+]
+
+.rigth-col-50[
+
+
+## Thank you for your attention
+
+### Find the slides [online](https://raw.githack.com/lgatto/slide-templates/master/my_template.html).
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
