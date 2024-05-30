@@ -83,6 +83,10 @@ If there's one reference to remember, it is this seminal paper
   employees from the paper.
 - Margaret Mitchell was later also fired from Google.
 
+**It is important to note that, in addition to highlight the risks,
+the authors do propose paths forward for LM research and
+development.**
+
 ---
 
 class: middle, center, inverse
