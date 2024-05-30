@@ -17,7 +17,7 @@ name: cc-by
 
 ### Get the slides at [https://bit.ly/2024ai_slides](https://bit.ly/2024ai_slides)
 
-### Get the notes at [https://bit.ly/2024ia_blog](https://bit.ly/2024ia_blog)
+### Get the notes at [https://bit.ly/2024ai_blog](https://bit.ly/2024ai_blog)
 
 This content is available under a **creative common [CC-BY
 license](http://creativecommons.org/licenses/by/4.0/)**. You are free
